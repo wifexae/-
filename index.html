@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOCTURNE — премиальный автодетейлинг</title>
+  <meta name="description" content="Полировка, керамическая защита, PPF и уход за салоном. Осмотр и согласованная смета до начала работ. Расчёт стоимости по классу автомобиля.">
+  <meta name="theme-color" content="#0a0b0d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0b0d'/%3E%3Cpath d='M9 22V10l14 12V10' fill='none' stroke='%23c9a46a' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="top">
+    <div class="wrap header__in">
+      <a class="logo" href="#top" aria-label="NOCTURNE — на главную">
+        <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#14171c" stroke="rgba(255,255,255,.12)"/><path d="M9 22V10l14 12V10" fill="none" stroke="#c9a46a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="logo__txt"><b>NOCTURNE</b><small>detail studio</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#pricing">Цены</a>
+        <a href="#process">Как работаем</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#contacts">Контакты</a>
+        <a class="btn btn--sm btn--primary nav__cta" href="#pricing">Рассчитать стоимость</a>
+      </nav>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__in">
+        <p class="eyebrow">Премиальный автодетейлинг</p>
+        <h1>Каждый миллиметр кузова — <em>под контролем</em></h1>
+        <p class="lead">Полировка, керамическая защита, PPF и уход за салоном. Сначала осмотр, затем согласованный объём работ и понятная стоимость — без сюрпризов.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#pricing">Рассчитать стоимость</a>
+          <a class="btn btn--ghost" href="#contacts">Записаться на осмотр</a>
+        </div>
+        <ul class="hero__facts">
+          <li><b>Осмотр до старта</b><span>фиксируем состояние ЛКП и салона</span></li>
+          <li><b>Смета заранее</b><span>объём и цена согласуются до работ</span></li>
+          <li><b>Приём по записи</b><span>мастер занимается одним автомобилем</span></li>
+        </ul>
+      </div>
+
+      <div class="stage" aria-hidden="true">
+        <svg class="car" viewBox="0 0 900 300" fill="none">
+          <defs>
+            <linearGradient id="cg" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#c9a46a"/>
+              <stop offset=".55" stop-color="#f2e6cf"/>
+              <stop offset="1" stop-color="#c9a46a"/>
+            </linearGradient>
+            <linearGradient id="cf" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#c9a46a" stop-opacity=".16"/>
+              <stop offset="1" stop-color="#c9a46a" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <ellipse class="car__shadow" cx="450" cy="272" rx="380" ry="12"/>
+          <path class="car__fill" d="M70 226C66 205 72 188 92 182L170 168C215 140 270 108 360 96C440 88 520 90 575 112C610 128 650 146 720 158C770 166 820 178 832 200L834 226L712 230A47 47 0 0 0 618 230L281 230A46 46 0 0 0 189 230L70 226Z"/>
+          <g class="car__lines" stroke="url(#cg)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path pathLength="1" d="M70 226C66 205 72 188 92 182L170 168C215 140 270 108 360 96C440 88 520 90 575 112C610 128 650 146 720 158C770 166 820 178 832 200L834 226L712 230A47 47 0 0 0 618 230L281 230A46 46 0 0 0 189 230L70 226Z"/>
+            <path pathLength="1" d="M250 150C292 124 335 111 392 108L478 107C520 107 548 118 572 133L592 143Z"/>
+            <path pathLength="1" d="M440 107L436 149"/>
+            <path pathLength="1" d="M100 192C300 182 560 178 740 180"/>
+            <circle pathLength="1" cx="235" cy="232" r="38"/>
+            <circle pathLength="1" cx="235" cy="232" r="20"/>
+            <circle pathLength="1" cx="665" cy="232" r="38"/>
+            <circle pathLength="1" cx="665" cy="232" r="20"/>
+          </g>
+        </svg>
+        <p class="stage__note">Иллюстрация. Здесь будут реальные фото работ студии.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Услуги</p>
+          <h2>Полный цикл ухода за автомобилем</h2>
+          <p class="muted">Цены указаны «от» и зависят от класса автомобиля и состояния ЛКП. Точную стоимость называем после осмотра.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.2 6 10.5A6 6 0 0 1 6 13.5C6 9.2 12 3 12 3Z"/></svg>
+            <h3>Премиум-мойка</h3>
+            <p>Бережная ручная мойка, очистка дисков и арок, удаление въевшихся загрязнений, сушка без разводов.</p>
+            <p class="card__price">от 4 000 ₽</p>
+          </article>
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3ZM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z"/></svg>
+            <h3>Полировка и коррекция ЛКП</h3>
+            <p>Удаление микроцарапин и голограмм в пределах лака, восстановление глубины цвета и блеска.</p>
+            <p class="card__price">от 25 000 ₽</p>
+          </article>
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.6-3 8.2-7 10-4-1.8-7-5.4-7-10V6l7-3Z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg>
+            <h3>Керамическая защита</h3>
+            <p>Защитное покрытие кузова: гидрофобность, лёгкая мойка и устойчивость к реагентам и загрязнениям.</p>
+            <p class="card__price">от 35 000 ₽</p>
+          </article>
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M4 10h16M10 5v14"/></svg>
+            <h3>Защитная плёнка (PPF)</h3>
+            <p>Оклейка уязвимых зон — капот, бампер, зеркала, пороги — от сколов и абразивного износа.</p>
+            <p class="card__price">от 90 000 ₽</p>
+          </article>
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h5a3 3 0 0 1 3 3v6H9a2 2 0 0 1-2-2V4ZM6 21l1-8M17 21l-1-8M5 17h14"/></svg>
+            <h3>Химчистка и уход за салоном</h3>
+            <p>Глубокая чистка тканей и кожи, пластика, потолка и ковров, обработка кожи защитными составами.</p>
+            <p class="card__price">от 14 000 ₽</p>
+          </article>
+          <article class="card reveal">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/><path d="M12 4v5.5M12 14.5V20M4.5 9l5 2M14.5 13l5 2M4.5 15l5-2M14.5 11l5-2"/></svg>
+            <h3>Фары, стёкла и диски</h3>
+            <p>Полировка и защита фар, антидождь для стёкол, детейлинг дисков и обработка тормозных суппортов.</p>
+            <p class="card__price">от 5 000 ₽</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section section--alt" id="pricing">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Цены</p>
+          <h2>Пакеты и расчёт по классу автомобиля</h2>
+          <p class="muted">Выберите класс автомобиля — цены обновятся. Кнопка «Записаться» подготовит сообщение с выбранным пакетом.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Класс автомобиля">
+          <button class="tab is-active" role="tab" id="tab-s" aria-selected="true" aria-controls="plans" data-class="s" type="button">Седан / хэтчбек</button>
+          <button class="tab" role="tab" id="tab-m" aria-selected="false" aria-controls="plans" data-class="m" tabindex="-1" type="button">Кроссовер</button>
+          <button class="tab" role="tab" id="tab-l" aria-selected="false" aria-controls="plans" data-class="l" tabindex="-1" type="button">Внедорожник / минивэн</button>
+        </div>
+
+        <div class="plans" id="plans" role="tabpanel" aria-labelledby="tab-s" aria-live="polite">
+          <article class="plan reveal">
+            <h3>Refresh</h3>
+            <p class="plan__sub">Регулярный уход</p>
+            <p class="plan__price"><span data-price data-s="6000" data-m="7500" data-l="9000">6 000</span> ₽</p>
+            <ul>
+              <li>Ручная мойка кузова</li>
+              <li>Очистка дисков и арок</li>
+              <li>Удаление въевшихся загрязнений с ЛКП</li>
+              <li>Пылесос и влажная уборка салона</li>
+              <li>Защитный состав на кузов</li>
+            </ul>
+            <a class="btn btn--ghost btn--block js-cta" data-package="Refresh" href="#contacts">Записаться</a>
+          </article>
+
+          <article class="plan plan--featured reveal">
+            <span class="plan__badge">Выбор для большинства</span>
+            <h3>Signature</h3>
+            <p class="plan__sub">Блеск и защита</p>
+            <p class="plan__price"><span data-price data-s="18000" data-m="22000" data-l="26000">18 000</span> ₽</p>
+            <ul>
+              <li>Всё из пакета Refresh</li>
+              <li>Одношаговая полировка кузова</li>
+              <li>Керамический защитный состав</li>
+              <li>Уход за кожей и пластиком салона</li>
+              <li>Обработка стёкол</li>
+            </ul>
+            <a class="btn btn--primary btn--block js-cta" data-package="Signature" href="#contacts">Записаться</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3>Prestige</h3>
+            <p class="plan__sub">Комплексное восстановление</p>
+            <p class="plan__price"><span data-price data-s="65000" data-m="78000" data-l="92000">65 000</span> ₽</p>
+            <ul>
+              <li>Всё из пакета Signature</li>
+              <li>Многоэтапная коррекция ЛКП по состоянию</li>
+              <li>Керамическое покрытие кузова</li>
+              <li>Химчистка салона</li>
+              <li>Защита фар и стёкол</li>
+            </ul>
+            <a class="btn btn--ghost btn--block js-cta" data-package="Prestige" href="#contacts">Записаться</a>
+          </article>
+        </div>
+
+        <p class="fineprint reveal">Состав работ и итоговая цена уточняются после осмотра. Сроки зависят от состояния автомобиля. Глубокие царапины, дошедшие до грунта, полировкой не устраняются. PPF и дополнительные услуги считаются отдельно.</p>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как работаем</p>
+          <h2>Четыре шага от осмотра до выдачи</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span class="steps__n">01</span><h3>Осмотр</h3><p>Оцениваем состояние ЛКП и салона, фиксируем исходное состояние.</p></li>
+          <li class="reveal"><span class="steps__n">02</span><h3>Согласование</h3><p>Называем состав работ, срок и стоимость. Начинаем только после вашего согласия.</p></li>
+          <li class="reveal"><span class="steps__n">03</span><h3>Работы</h3><p>Выполняем по технологической карте: подготовка, коррекция, защита.</p></li>
+          <li class="reveal"><span class="steps__n">04</span><h3>Выдача</h3><p>Принимаем результат вместе, даём рекомендации по уходу.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="wrap wrap--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Вопросы</p>
+          <h2>Частые вопросы</h2>
+        </header>
+        <div class="faq reveal">
+          <details>
+            <summary>Сколько занимают работы?</summary>
+            <p>От нескольких часов до нескольких дней — зависит от пакета и состояния ЛКП. Точный срок называем после осмотра.</p>
+          </details>
+          <details>
+            <summary>Нужна ли керамика на новый автомобиль?</summary>
+            <p>Новое покрытие тоже нуждается в защите, а подготовка обычно занимает меньше времени. Оценим это на осмотре.</p>
+          </details>
+          <details>
+            <summary>Уберёт ли полировка все царапины?</summary>
+            <p>Нет. Удаляются дефекты в пределах лака. Глубокие царапины, дошедшие до грунта, полировкой не исправить — скажем об этом честно до начала работ.</p>
+          </details>
+          <details>
+            <summary>Как записаться?</summary>
+            <p>Через мессенджер, по телефону или по email — контакты ниже. Время и состав работ подтверждаем лично.</p>
+          </details>
+          <details>
+            <summary>Какие гарантии?</summary>
+            <p>Условия зависят от услуги и фиксируются в акте приёмки. Уточняйте при записи.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section" id="contacts">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2>Запишитесь на осмотр</h2>
+          <p class="muted">Напишите в мессенджер — расскажем, что подойдёт вашему автомобилю, и согласуем время.</p>
+        </header>
+
+        <p class="notice" id="demo-notice" role="note"><b>Демо-версия.</b> Контакты ниже — заглушки, ссылки на мессенджеры отключены. Реальные данные задаются в начале файла <code>script.js</code>.</p>
+
+        <div class="contacts">
+          <div class="contacts__main reveal">
+            <a class="btn btn--primary btn--block js-contact" data-kind="telegram" href="#contacts" rel="noopener">Написать в Telegram</a>
+            <a class="btn btn--ghost btn--block js-contact" data-kind="whatsapp" href="#contacts" rel="noopener">Написать в WhatsApp</a>
+            <a class="btn btn--ghost btn--block js-contact" data-kind="phone" href="#contacts">Позвонить: <span data-fill="phone">+7 000 000-00-00</span></a>
+          </div>
+          <dl class="contacts__list reveal">
+            <div><dt>Телефон</dt><dd data-fill="phone">+7 000 000-00-00</dd></div>
+            <div><dt>Email</dt><dd data-fill="email">hello@example.com</dd></div>
+            <div><dt>Адрес</dt><dd data-fill="address">Адрес уточняется</dd></div>
+            <div><dt>Часы работы</dt><dd data-fill="hours">Ежедневно, 09:00–20:00</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <p>© <span id="year">2026</span> NOCTURNE detail studio</p>
+      <p class="muted">Демонстрационный макет: название, цены и контакты — заглушки.</p>
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
